@@ -1,0 +1,35 @@
+{
+  "services": [
+    {
+      "bindable": true,
+      "description": "Test Node Resource Service Broker Description",
+      "id": "df35cab6-347b-4ba5-8f39-e9c23a237f5b",
+      "metadata": {
+        "displayName": "Test Node Resource Service Broker Display Name",
+        "documentationUrl": "documentation.html",
+        "imageUrl": "services.svg",
+        "instructionsUrl": "instructions.html",
+        "longDescription": "Test Node Resource Service Broker Long Description",
+        "providerDisplayName": "Company Name",
+        "supportUrl": "support.html",
+        "termsUrl": "terms.html"
+      },
+      "name": "service-name",
+      "plan_updateable": true,
+      "tags": ["lite", "tag1a", "tag1b"],
+      "plans": [
+        {
+          "bindable": true,
+          "description": "Test Node Resource Service Broker Plan Description",
+          "free": true,
+          "id": "2a1d139b-1b05-4e33-b72e-a1f8c14be559",
+          "metadata": {
+            "bullets": ["Test bullet 1", "Test bullet 2"],
+            "displayName": "Lite"
+          },
+          "name": "lite"
+        }
+      ]
+    }
+  ]
+}

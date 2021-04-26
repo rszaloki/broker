@@ -609,7 +609,7 @@ var catalog = function (request, response) {
 
     var baseMetadataUrl = request.protocol + "://" + request.get("host") + "/";
 
-    var result = require('catalog.json');
+    var result = require('./catalog.json');
 
     console.log("GET /v2/catalog result: %j", result);
 
